@@ -8,3 +8,6 @@ then
  echo "subject:warning ram is low" | sendmail $TO
  fi
 
+echo "mail sent"
+echo "sent via SMTP"
+
