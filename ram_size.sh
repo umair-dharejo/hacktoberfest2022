@@ -6,6 +6,7 @@ if [ $ram_size -le 15000 ]
 then 
  echo "sending mail"
  echo "subject:warning ram is low" | sendmail $TO
+ echo "you have successfully recived mail"
  fi
 
 echo "mail sent"
