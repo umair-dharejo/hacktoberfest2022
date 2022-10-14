@@ -7,7 +7,7 @@ then
  echo "sending mail"
  echo "subject:warning ram is low" | sendmail $TO
  echo "you have successfully recived mail"
- fi
+ 
 
 echo "mail sent"
 echo "sent via SMTP"
